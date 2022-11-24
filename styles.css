@@ -126,6 +126,8 @@ ul {
   height: 100%;
   flex-direction: column;
   padding: 2px 14px;
+  text-align: center;
+  color: var(--colour-off-white);
 }
 
 @media (min-width: 765px) {
