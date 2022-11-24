@@ -60,7 +60,7 @@ ul {
   color: #000;
 }
 
-/* Image Banner */
+/* IMAGE BANNER */
 
 .image-banner {
   object-fit: cover;
@@ -84,7 +84,7 @@ ul {
   color: #fff;
 }
 
-/* Cards */
+/* CARDS */
 
 .cards {
   display: flex;
@@ -128,4 +128,42 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
   }
+}
+
+/* CONTACT FORM */
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: var(--colour-primary);
+  color: var(--colour-off-white);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--colour-light-green);
+}
+
+.contact-text {
+  font-weight: bold;
+}
+
+.contact-form {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: var(--colour-off-white);
+  padding: 20px;
 }
