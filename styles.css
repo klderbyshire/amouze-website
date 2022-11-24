@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800&display=swap");
+
+:root {
+  --colour-primary: #528124;
+  --colour-light-green: #92ae5a;
+  --colour-off-white: #f5f5f5;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  background-color: var(--colour-primary);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background: rgb(82, 129, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(82, 129, 36, 1) 43%,
+    rgba(255, 255, 255, 1) 65%
+  );
+}
+
+.amouze-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar li {
+  /* display: flex;
+    justify-content: space-between; */
+  /* float: right; */
+  /* list-style: none; */
+  margin: 0 100px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  overflow: auto;
+}
+
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Image Banner */
+
+.image-banner {
+  object-fit: cover;
+  width: 100%;
+  height: 20vh;
+}
+
+.image-banner img {
+  /* object-fit: cover; */
+  width: 100%;
+  height: 20vh;
+  margin: 0 auto;
+}
+
+.box-text-top-left {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Cards */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin: 75px;
+}
+
+.card-whole {
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 500px;
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: column;
+}
+
+.card-whole h2 {
+  padding: 2px;
+  margin: 8px 0;
+}
+
+.card-whole:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-whole .container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  padding: 2px 14px;
+}
+
+@media (min-width: 765px) {
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
