@@ -238,14 +238,12 @@ textarea:focus {
 }
 
 #button-blue:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: white;
   color: var(--colour-primary);
 }
-
 .submit:hover {
   color: var(--colour-primary);
 }
-
 .ease {
   width: 0px;
   height: 74px;
@@ -256,12 +254,10 @@ textarea:focus {
   -ms-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-
-.submit:hover .ease {
+/* .submit:hover .ease {
   width: 100%;
   background-color: white;
-}
-
+} */
 @media only screen and (max-width: 580px) {
   #form-div {
     left: 3%;
@@ -314,7 +310,7 @@ footer {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: purple;
+  background-color: #dcbe31;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
