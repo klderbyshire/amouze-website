@@ -28,12 +28,7 @@ ul {
   justify-content: space-between;
   width: 100%;
   height: auto;
-  background: rgb(81, 157, 66, 100);
-  background: linear-gradient(
-    90deg,
-    rgb(81, 157, 66, 100) 43%,
-    rgba(255, 255, 255, 1) 65%
-  );
+  background: var(--colour-off-white);
 }
 
 .amouze-image {
@@ -105,8 +100,8 @@ ul {
 }
 
 .card-whole {
-  border: 3px solid var(--colour-primary);
-  background-color: var(--colour-light-green);
+  /* border: 3px solid var(--color-light-grey); */
+  background-color: var(--colour-primary);
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.2s;
   width: 500px;
