@@ -53,13 +53,13 @@ ul {
   padding: 3px 3px;
   text-decoration: none;
   font-weight: bold;
-  color: #000;
+  color: #676767;
 }
 
 /* IMAGE BANNER */
 
 .image-banner {
-  object-fit: cover;
+  /* object-fit: cover; */
   width: 100%;
   /* height: 30vh; */
   margin-top: 30px;
@@ -67,8 +67,8 @@ ul {
 
 .image-banner img {
   /* object-fit: cover; */
-  width: 100%;
-  height: 30vh;
+  max-width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
   gap: 4rem;
-  margin: 75px;
+  margin: 45px;
 }
 
 .card-whole {
@@ -283,7 +283,7 @@ footer {
 
 .footer-container {
   max-width: 1170px;
-  /* background-color: var(--colour-light-green); */
+  background-color: var(--color-light-grey);
   margin: auto;
 }
 
@@ -303,7 +303,8 @@ footer {
   font-weight: bold;
   margin-bottom: 35px;
   position: relative;
-  background-color: #dcbe31;
+  color: #14453d;
+  /* background-color: #dcbe31; */
 }
 
 .footer-col h4::before {
