@@ -324,7 +324,7 @@ footer {
 
 .footer-col ol li a {
   font-size: 16px;
-  color: var(--colour-off-white);
+  color: #14453d;
   text-decoration: none;
   font-weight: bold;
   display: block;
@@ -342,7 +342,7 @@ ol {
 
 .p-text {
   font-size: 16px;
-  color: var(--colour-off-white);
+  color: #14453d;
 }
 
 /* RESPONSIVE */
