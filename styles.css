@@ -370,15 +370,22 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-}
+} */
 
-input[type="submit"] {
+.inputBox [type="submit"] {
   background-color: var(--colour-primary);
   color: var(--colour-off-white);
-  padding: 12px 20px;
+  padding: 14px 15px;
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 500;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.inputBox ::placeholder {
+  color: #000;
 }
 
 input[type="submit"]:hover {
@@ -394,4 +401,4 @@ input[type="submit"]:hover {
   border-radius: 5px;
   background-color: var(--colour-off-white);
   padding: 20px;
-} */
+}
