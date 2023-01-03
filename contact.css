@@ -7,13 +7,20 @@
   font-family: "Inter", sans-serif;
 }
 
+:root {
+  --colour-primary: #519d42;
+  --colour-light-green: #92ae5a;
+  --colour-off-white: #f5f5f5;
+  --color-light-grey: #ececec;
+}
+
 body {
   background: linear-gradient(
     90deg,
-    #0e3959 0%,
-    #0e3959 30%,
-    #03a9f5 30%,
-    #03a9f5 100%
+    #519d42 0%,
+    #519d42 30%,
+    #ececec 30%,
+    #ececec 100%
   );
 }
 
@@ -31,7 +38,7 @@ body {
 }
 
 .contactUs .title h2 {
-  color: #fff;
+  color: var(--colour-primary);
 }
 
 .form {
@@ -46,7 +53,7 @@ body {
 
 .contact {
   padding: 40px;
-  background: #fff;
+  background: var(--colour-off-white);
   box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
 }
 
@@ -93,7 +100,7 @@ body {
 }
 
 .inputBox span {
-  color: #18b7ff;
+  color: var(--colour-primary);
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -117,7 +124,7 @@ body {
 }
 
 .inputBox input[type="submit"] {
-  background: #ff578b;
+  background: var(--colour-primary);
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -130,4 +137,41 @@ body {
 
 .inputBox ::placeholder {
   color: #999;
+}
+
+/* Info */
+
+.info {
+  background: var(--colour-primary);
+}
+
+.info h1 {
+  color: #fff;
+}
+
+.info .infoBox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info .infoBox div span {
+  min-width: 40px;
+  height: 40px;
+  color: #fff;
+  background: var(--colour-light-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.info .infoBox div p {
+  color: #fff;
+}
+
+.info .infoBox div a {
+  text-decoration: none;
 }
