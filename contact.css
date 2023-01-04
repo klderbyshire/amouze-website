@@ -24,6 +24,57 @@ body {
   );
 }
 
+html,
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  background-color: var(--color-light-grey);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background: var(--colour-off-white);
+}
+
+.amouze-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar li {
+  /* display: flex;
+    justify-content: space-between; */
+  /* float: right; */
+  /* list-style: none; */
+  margin: 0 100px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  overflow: auto;
+}
+
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #676767;
+}
+
+/* page */
+
 .contactUs {
   position: relative;
   width: 100%;
@@ -55,6 +106,7 @@ body {
   padding: 40px;
   background: var(--colour-off-white);
   box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
+  border-radius: 10px;
 }
 
 .box {
@@ -174,4 +226,96 @@ body {
 
 .info .infoBox div a {
   text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--colour-primary);
+  padding: 30px 0;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1170px;
+  background-color: var(--color-light-grey);
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  position: relative;
+  color: #14453d;
+  /* background-color: #dcbe31; */
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #dcbe31;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ol li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ol li a {
+  font-size: 16px;
+  color: #14453d;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ol li a:hover {
+  color: white;
+  padding-left: 8px;
+}
+
+ol {
+  list-style: none;
+}
+
+.p-text {
+  font-size: 16px;
+  color: #14453d;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
 }
