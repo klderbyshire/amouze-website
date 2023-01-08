@@ -105,7 +105,7 @@ ul {
 .contact {
   padding: 40px;
   background: var(--colour-off-white);
-  box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
+  box-shadow: 0 5px 35px rgba(107, 107, 107, 15);
   border-radius: 10px;
 }
 
@@ -116,8 +116,8 @@ ul {
   grid-template-rows: 5fr 4fr;
   grid-template-areas:
     "form info"
-    "form map";
-  grid-gap: 20px;
+    "form info";
+  grid-gap: 40px;
   margin-top: 20px;
 }
 
@@ -195,6 +195,15 @@ ul {
 
 .info {
   background: var(--colour-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infobox-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info h1 {
@@ -232,6 +241,7 @@ ul {
 
 footer {
   margin: 0;
+  margin-top: 3rem;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--colour-primary);
@@ -264,7 +274,6 @@ footer {
   margin-bottom: 35px;
   position: relative;
   color: #14453d;
-  /* background-color: #dcbe31; */
 }
 
 .footer-col h4::before {
