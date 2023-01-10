@@ -46,6 +46,10 @@ ul {
   width: 100%;
   height: auto;
   background: var(--colour-off-white);
+  /* overflow: hidden;
+  position: fixed;
+  top: 0; 
+  z-index: 9999;*/
 }
 
 .amouze-image {
@@ -107,6 +111,11 @@ ul {
   background: var(--colour-off-white);
   box-shadow: 0 5px 35px rgba(107, 107, 107, 15);
   border-radius: 10px;
+  width: 100%;
+}
+
+.infobox-img {
+  width: auto;
 }
 
 .box {

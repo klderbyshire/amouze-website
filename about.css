@@ -29,6 +29,10 @@ ul {
   width: 100%;
   height: auto;
   background: var(--colour-off-white);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 
 .amouze-image {
@@ -79,6 +83,58 @@ ul {
   font-weight: bold;
   font-size: 40px;
   color: #fff;
+}
+
+/* midline title */
+
+.divider {
+  width: 100%;
+  text-align: center;
+  font-size: 2.1em;
+  color: var(--colour-primary);
+  font-weight: 500;
+}
+
+.divider hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* .wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+} */
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 334px;
+}
+
+.wave .shape-fill {
+  fill: #519d42;
+}
+
+/* Circle Image */
+
+.circle-image {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
 }
 
 /* FOOTER */

@@ -29,6 +29,10 @@ ul {
   width: 100%;
   height: auto;
   background: var(--colour-off-white);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 
 .amouze-image {

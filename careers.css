@@ -29,6 +29,10 @@ ul {
   width: 100%;
   height: auto;
   background: var(--colour-off-white);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 
 .amouze-image {
@@ -133,7 +137,17 @@ ul {
 
 .contact h1 {
   color: var(--colour-primary);
-  font-size: 1.7em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact h2 {
+  color: var(--colour-primary);
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Form */
