@@ -119,10 +119,10 @@ ul {
 } */
 
 .wave svg {
-  position: relative;
+  /* position: relative; */
   display: block;
   width: calc(127% + 1.3px);
-  height: 334px;
+  height: 234px;
 }
 
 .wave .shape-fill {
@@ -131,11 +131,28 @@ ul {
 
 /* Circle Image */
 
+.about-container {
+  display: flex;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 5rem;
+  /* margin-top: -100px; commented the margin top negative  */
+}
+.about-description {
+  padding: 0 2rem 0 0;
+}
+
 .circle-image {
+  border-radius: 50%;
+  width: 300px;
+  height: auto;
+}
+
+/* .circle-image {
   border-radius: 50%;
   width: 30%;
   height: auto;
-}
+} */
 
 /* FOOTER */
 

@@ -85,6 +85,11 @@ ul {
   padding: 40px 100px;
 }
 
+.contactUs h1 {
+  display: flex;
+  justify-content: center;
+}
+
 .contactUs .title {
   display: flex;
   justify-content: center;
@@ -114,13 +119,14 @@ ul {
   width: 100%;
 }
 
-.infobox-img {
-  width: auto;
-  /* float: left; */
-  width: 500px;
-  height: 500px;
+.infobox-img img {
+  width: 100%;
+}
 
-  overflow: scroll;
+.infobox-img {
+  width: 100%;
+  border-radius: 1rem;
+  margin: 1rem 0 2rem 0;
 }
 
 .box {
