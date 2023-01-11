@@ -170,7 +170,7 @@ h2 {
 }
 
 .inputBox span {
-  color: var(--color-dark-grey);
+  color: var(--colour-primary);
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 500;
