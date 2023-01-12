@@ -140,6 +140,7 @@ ul {
 }
 .about-description {
   padding: 0 2rem 0 0;
+  line-height: 2em;
 }
 
 .circle-image {
@@ -147,12 +148,6 @@ ul {
   width: 300px;
   height: auto;
 }
-
-/* .circle-image {
-  border-radius: 50%;
-  width: 30%;
-  height: auto;
-} */
 
 /* FOOTER */
 
