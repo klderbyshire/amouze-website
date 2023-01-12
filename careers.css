@@ -191,6 +191,7 @@ h2 {
   resize: none;
   min-height: 220px;
   margin-bottom: 10px;
+  font-family: "Inter", sans serif;
 }
 
 .inputBox input[type="submit"] {
