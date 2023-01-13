@@ -69,6 +69,11 @@ ul {
   color: #676767;
 }
 
+.navbar ul a:hover {
+  color: var(--colour-primary);
+  padding-left: 8px;
+}
+
 /* IMAGE BANNER */
 
 .image-banner {
