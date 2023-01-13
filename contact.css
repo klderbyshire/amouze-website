@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap");
 
 * {
   margin: 0;
@@ -186,6 +187,7 @@ ul {
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 500;
+  /* font-family: "Roboto Mono", monospace; */
 }
 
 .inputBox input {
@@ -193,6 +195,8 @@ ul {
   font-size: 1.1em;
   outline: none;
   border: 1px solid #333;
+  /* font-family: "Roboto Mono", monospace; */
+  font-weight: 400;
 }
 
 .inputBox textarea {
@@ -203,6 +207,8 @@ ul {
   resize: none;
   min-height: 220px;
   margin-bottom: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
 }
 
 .inputBox input[type="submit"] {
@@ -219,6 +225,7 @@ ul {
 
 .inputBox ::placeholder {
   color: #999;
+  font-family: "Roboto Mono", monospace;
 }
 
 /* Info */
@@ -338,7 +345,7 @@ footer {
 }
 
 .footer-col ol li a:hover {
-  color: white;
+  color: var(--colour-primary);
   padding-left: 8px;
 }
 
