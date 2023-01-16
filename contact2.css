@@ -6,6 +6,7 @@
   --colour-light-green: #92ae5a;
   --colour-off-white: #f5f5f5;
   --color-light-grey: #ececec;
+  --color-dark-grey: #222222;
 }
 
 * {
@@ -147,9 +148,9 @@ ul {
 }
 
 .contact h3 {
-  color: #0e3959;
-  font-weight: 500;
-  font-size: 1.4em;
+  color: var(--color-dark-grey);
+  font-weight: 700;
+  font-size: 2em;
   margin-bottom: 10px;
 }
 
