@@ -150,6 +150,7 @@ ul {
   padding: 2px 14px;
   text-align: center;
   color: var(--colour-off-white);
+  line-height: 1.8em;
 }
 
 @media (min-width: 765px) {
