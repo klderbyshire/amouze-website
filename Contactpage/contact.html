@@ -46,41 +46,43 @@
           <p>Thank you for visiting our website. We value your feedback and are happy to answer any questions you may have. Please use the form below or the contact information provided to get in touch with us.</p>
 
           <!-- <form> -->
-            <form action="https://formsubmit.co/ee8d3396702891748e95ade735e2f8a0" method="POST">
-              <input type="hidden" name="_next" value="https://amouze.co.uk/Thankyou/thankyou.html">
+            <form action="https://formsubmit.co/contact@amouze.co.uk" method="POST">
+
+              <!-- <input type="hidden" name="_next" value="https://amouze.co.uk/Thankyou/thankyou.html"> -->
+
             <div class="formBox">
               <div class="row50">
                 <div class="inputBox">
                   <span>First Name</span>
-                  <input type="text" placeholder="First Name" required />
+                  <input type="text" name="firstname" placeholder="First Name" required />
                 </div>
                 <div class="inputBox">
                   <span>Last Name</span>
-                  <input type="text" placeholder="Last Name" required/>
+                  <input type="text" name="lastname" placeholder="Last Name" required/>
                 </div>
               </div>
 
               <div class="row50">
                 <div class="inputBox">
                   <span>Email</span>
-                  <input type="text" placeholder="Email Address" required/>
+                  <input type="text" name="email" placeholder="Email Address" required/>
                 </div>
                 <div class="inputBox">
                   <span>Mobile Number</span>
-                  <input type="text" placeholder="Mobile Number" />
+                  <input type="text" name="number" placeholder="Mobile Number" />
                 </div>
               </div>
 
               <div class="row100">
                 <div class="inputBox">
                   <span>Message</span>
-                  <textarea placeholder="Message Text" required></textarea>
+                  <textarea name="message" placeholder="Message Text" required></textarea>
                 </div>
               </div>
 
               <div class="row100">
                 <div class="inputBox">
-                  <input type="submit" value="Send" />
+                  <input name="button" type="submit" value="Send" />
                 </div>
               </div>
             </div>
