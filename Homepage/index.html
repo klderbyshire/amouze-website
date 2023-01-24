@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Homepage/styles.css">
+    <script src="./homepage.js"></script>
     <title>Amouze Ltd</title>
 </head>
 <body>
@@ -53,7 +54,7 @@
         <img class='img-card' src="/Images/Digital stragegy img.jpg" alt="" style="width:100%">
         <div class="container">
             <h3 class="card-text"> Digital Strategy </h3>
-            <p>We can assist you in achieving success in the digital age by providing both a strong vision and efficient execution. Our team of specialists from various fields will collaborate with you to develop, construct, and expand innovative digital businesses.</h2></p>
+            <p>We can assist you in achieving success in the digital age by providing both a strong vision and efficient execution. Our team of specialists from various fields will collaborate with you to develop, construct, and expand innovative digital businesses.</p>
         </div>
     </div>
     <div class="card-whole">
@@ -93,7 +94,7 @@
             <p>Required fields are marked with an asterisk (*).</p>
         </div>
      
-        <form action="https://formsubmit.co/enquiries@amouze.co.uk" method="POST" class="form" id="form1">
+        <form action="https://formsubmit.co/6c9ead3a9365afd3ad2de14b02034a7b" method="POST" class="form">
         
         <p class="name">
           <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name*" id="name" required/>
@@ -111,9 +112,12 @@
           <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message Text*" required></textarea>
         </p>
         
-        
-        <div class="submit">
-          <input type="submit" value="SEND" id="button-blue"/>
+        <label for="terms-and-conditions">I accept the Terms and Conditions</label>
+        <input type="checkbox" required id="terms-and-conditions">
+         <br>
+       
+         <div class="submit">
+          <input type="submit" value="SEND" id="button-blue" onclick="checkBox()"/>
           <div class="ease"></div>
         </div>
       </form>
@@ -142,7 +146,7 @@
                     <p class="p-text">Herald Way</p>
                     <p class="p-text">Nottingham</p>
                     <p class="p-text">DE74 2TZ </p>
-                    <p class="p-text">enquiries@amouze.co.uk</p>
+                    <p class="p-text">contact@amouze.co.uk</p>
                 </div>
                  </footer>
             

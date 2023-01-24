@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amouze Contact</title>
     <link rel="stylesheet" href="/Contactpage/contact.css" />
+    <script src="./contact.js"></script>
+
   </head>
   <body>
 
@@ -46,43 +48,47 @@
           <p>Thank you for visiting our website. We value your feedback and are happy to answer any questions you may have. Please use the form below or the contact information provided to get in touch with us.</p>
 
           <!-- <form> -->
-            <form action="https://formsubmit.co/contact@amouze.co.uk" method="POST">
-
-              <!-- <input type="hidden" name="_next" value="https://amouze.co.uk/Thankyou/thankyou.html"> -->
-
-            <div class="formBox">
+            <form action="https://formsubmit.co/6c9ead3a9365afd3ad2de14b02034a7b" method="POST">
+              <div class="formBox">
               <div class="row50">
                 <div class="inputBox">
                   <span>First Name</span>
-                  <input type="text" name="firstname" placeholder="First Name" required />
+                  <input type="text" id="firstname" name="firstname" placeholder="First Name" required />
                 </div>
                 <div class="inputBox">
                   <span>Last Name</span>
-                  <input type="text" name="lastname" placeholder="Last Name" required/>
+                  <input type="text" id="lastname" name="lastname" placeholder="Last Name" required/>
                 </div>
               </div>
 
               <div class="row50">
                 <div class="inputBox">
                   <span>Email</span>
-                  <input type="text" name="email" placeholder="Email Address" required/>
+                  <input type="text" id="email" name="email" placeholder="Email Address" required/>
                 </div>
                 <div class="inputBox">
                   <span>Mobile Number</span>
-                  <input type="text" name="number" placeholder="Mobile Number" />
+                  <input type="text" id="number" name="number" placeholder="Mobile Number" />
                 </div>
               </div>
 
               <div class="row100">
                 <div class="inputBox">
                   <span>Message</span>
-                  <textarea name="message" placeholder="Message Text" required></textarea>
+                  <textarea name="message" id="message" placeholder="Message Text" required></textarea>
                 </div>
               </div>
 
-              <div class="row100">
-                <div class="inputBox">
-                  <input name="button" type="submit" value="Send" />
+              <label for="terms-and-conditions">I accept the Terms and Conditions</label>
+              <input type="checkbox" required id="terms-and-conditions">
+               <br>
+               
+                  <div class="row100">
+                    <div class="inputBox">
+                     
+                   
+                   <input type="submit" name="submit" id="submit" value="Send" onclick="checkBox()" />
+                  
                 </div>
               </div>
             </div>
@@ -103,7 +109,7 @@
             </div>
             <div>
               <span><ion-icon name="mail"></ion-icon></span>
-              <a href="mailto:enquiries@amouze.co.uk">enquiries@amouze.co.uk</a>
+              <a href="mailto:contact@amouze.co.uk">contact@amouze.co.uk</a>
             </div>
           </div>
         </div>
@@ -141,7 +147,7 @@
                   <p class="p-text">Herald Way</p>
                   <p class="p-text">Nottingham</p>
                   <p class="p-text">DE74 2TZ</p>
-                  <p class="p-text">enquiries@amouze.co.uk</p>
+                  <p class="p-text">contact@amouze.co.uk</p>
               </div>
                  </footer>
 
@@ -153,5 +159,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+  
   </body>
 </html>
