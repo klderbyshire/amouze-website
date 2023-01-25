@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Homepage/styles.css">
+    <script src="/Homepage/homepage.js"></script>
+    <title>Amouze Ltd</title>
+</head>
+<body>
+
+    <!-- NAVBAR  -->
+<nav class="navbar">
+    <div class="amouze-image">
+        <a href="/index.html">
+            <img src="/Images/logo green background.svg" alt="amouze-logo">
+        </a>
+    </div>
+
+    <ul class="navbar-right">
+        <li>
+            <a href="/Aboutpage/about.html">ABOUT</a>
+        </li>
+        <li>
+            <a href="/Contactpage/contact.html">CONTACT</a>
+        </li>
+        <li>
+            <a href="/Careerspage/careers.html">CAREERS</a>
+        </li>
+        <!-- <li>
+
+            <a href="#">PROJECTS</a>
+        </li> -->
+    </ul>
+</nav>
+ 
+ <!-- Image Banner -->
+ <section class="image-banner">
+    <div max-width and max height , width and height>     
+        <img src="/Images/homepage-banner 3.svg" alt="life-science-image">          
+        <div>
+    
+ </section>
+
+ <!-- Cards section -->
+
+ <div class="title-text">
+    <h2 class="client-text">How We Can Help Clients</h2>
+</div>
+
+<section class="cards">
+    <div class="card-whole">
+        <img class='img-card' src="/Images/Digital stragegy img.jpg" alt="" style="width:100%">
+        <div class="container">
+            <h3 class="card-text"> Digital Strategy </h3>
+            <p>We can assist you in achieving success in the digital age by providing both a strong vision and efficient execution. Our team of specialists from various fields will collaborate with you to develop, construct, and expand innovative digital businesses.</p>
+        </div>
+    </div>
+    <div class="card-whole">
+        <img class='img-card' src="/Images/Business model img.jpg" alt="" style="width:100%">
+        <div class="container">
+            <h3 class="card-text"> Business Model </h3>
+            <p>We offer the necessary knowledge and resources to determine what is most important to your customers and assist your team in providing exceptional experiences while streamlining operations and reducing expenses. The result will be satisfied customers, satisfied employees, and satisfied shareholders.</h2></p>
+        </div>
+    </div>
+    <div class="card-whole">
+        <img class='img-card' src="/Images/IT framework.jpg" alt="" style="width:100%">
+        <div class="container">
+            <h3 class="card-text"> IT Framework Design </h3>
+            <p>Amouze Ltd specializes in designing and implementing customized IT frameworks that align with a company's specific needs and regulations. This requires a wide range of skills, including understanding regulations, mapping out value streams, designing processes, managing IT operations, addressing compliance and governance, and incorporating automation technologies.</h2></p>
+        </div>
+    </div>
+    <div class="card-whole">
+        <img class='img-card' src="/Images/App lifecycle.jpg" alt="" style="width:100%">
+        <div class="container">
+            <h3 class="card-text">Application Lifecycle Management</h3>
+            <p>We make sure that all application management tasks are done correctly, on schedule, and following established procedures. We work closely and effectively with the business and infrastructure teams to carry out all necessary application management tasks with minimal interruption.</h2></p>
+        </div>
+    </div>
+</section>
+
+<hr size="4" width="90%" color='#519D42'>
+ 
+ <!--Contact Form  -->
+
+ <div id="form-main">
+    
+    <div id="form-div">
+       
+        <div class="contact-us-text">
+            <h1>CONTACT US</h1>
+            <p>Thank you for your interest. Please fill out the form below to enquire about our work in Life Sciences.</p>
+            <p>Required fields are marked with an asterisk (*).</p>
+        </div>
+     
+        <form action="https://formsubmit.co/6c9ead3a9365afd3ad2de14b02034a7b" method="POST" class="form">
+        
+        <p class="name">
+          <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name*" id="name" required/>
+        </p>
+        
+        <p class="email">
+          <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email*" required/>
+        </p>
+
+        <p class="subject">
+            <input name="subject" type="text" class="validate[required,custom[subject]] feedback-input" id="subject" placeholder="Subject*" required/>
+          </p>
+        
+        <p class="Message">
+          <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message Text*" required></textarea>
+        </p>
+        
+        <label for="terms-and-conditions">I accept the <a href="/TandC's/terms.html" target="_blank">TERMS AND CONDITIONS</a></label>
+        <input type="checkbox" required id="terms-and-conditions">
+         <br>
+       
+         <div class="submit">
+          <input type="submit" value="SEND" id="button-blue" onclick="checkBox()"/>
+          <div class="ease"></div>
+        </div>
+      </form>
+    </div>
+</div>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>COMPANY</h4>
+                    <ol>
+                        <li><a href="/Aboutpage/about.html">ABOUT US</a></li>
+                        <!-- <li><a href="#">PROJECTS</a></li> -->
+                        <li><a href="/Contactpage/contact.html">CONTACT</a></li>
+                        <li><a href="/Careerspage/careers.html">CAREERS</a></li>
+                        <li><a href="/policies/privacy.html" target="_blank">PRIVACY POLICY</a></li>
+                        <li><a href="/TandC's/terms.html" target="_blank">TERMS AND CONDITIONS</a></li>
+                    </ol>
+                </div>
+                <div class="footer-col">
+                    <h4>Amouze Ltd</h4>
+                    <p class="p-text">UK Regus House</p>
+                    <p class="p-text">Herald Way</p>
+                    <p class="p-text">Nottingham</p>
+                    <p class="p-text">DE74 2TZ </p>
+                    <p class="p-text">contact@amouze.co.uk</p>
+                </div>
+                 </footer>
+            
+
+    
+
+   
+
+</body>
+
+</html> 
