@@ -177,8 +177,6 @@ ul {
 }
 
 #form-main {
-  /* width: 100%;
-  float: left; */
   padding-top: 0px;
 }
 
@@ -240,6 +238,12 @@ textarea:hover,
 input:focus,
 textarea:focus {
   background-color: var(--colour-off-white);
+}
+
+input,
+label {
+  margin-bottom: 35px;
+  color: var(--colour-off-white);
 }
 
 #button-blue {
