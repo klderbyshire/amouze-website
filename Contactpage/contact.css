@@ -42,50 +42,133 @@ ul {
 
 /* NAVBAR */
 
-.navbar {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  height: auto;
-  background: var(--colour-off-white);
+  align-items: center;
+  min-height: 10vh;
+  background-color: var(--colour-off-white);
   overflow: hidden;
 }
+
+/* .amouze-image {
+  width: 100%;
+  position: relative;
+} */
 
 .amouze-image img {
   max-width: 300px;
 }
 
-ul {
+.navlinks {
   display: flex;
   justify-content: space-around;
-  width: 50%;
-  align-items: center;
+  width: 40%;
+}
+
+.navlinks li {
   list-style: none;
-}
-
-.navbar li a {
-  padding: 3px 3px;
-  text-decoration: none;
-  font-weight: bold;
   color: #676767;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
 }
 
-.navbar ul a:hover {
+.navlinks a {
+  color: var(--color-dark-grey);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navlinks li:hover {
   color: var(--colour-primary);
   padding-left: 8px;
 }
 
-.contactUs {
-  position: relative;
-  width: 100%;
-  padding: 40px 100px;
+.burger {
+  display: none;
+  cursor: pointer;
 }
 
-.contactUs .title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .amouze-image img {
+    position: relative;
+    max-width: 300px;
+    height: 70px;
+  }
+
+  .navlinks {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 8vh;
+    background-color: var(--colour-off-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .navlinks li {
+    opacity: 0;
+  }
+
+  .navlinks li:hover {
+    color: var(--colour-primary);
+    padding-left: 8px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
 }
 
 /* Form */
