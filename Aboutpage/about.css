@@ -172,83 +172,74 @@ nav {
   color: #fff;
 }
 
-/* midline title */
-
-.divider {
+.wrapper {
   width: 100%;
-  text-align: center;
-  font-size: 2.1em;
-  color: var(--colour-primary);
-  font-weight: 500;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
 }
 
-.divider hr {
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+.row {
+  width: 100%;
+  padding: 50px 100px;
 }
 
-.left {
+.image-section {
+  width: 30%;
   float: left;
 }
 
-.right {
-  float: right;
-}
-
-/* .wave {
-  position: absolute;
-  top: 0;
-  left: 0;
+.image-section img {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
   width: 100%;
-  overflow: hidden;
-  line-height: 0;
-} */
-
-.wave svg {
-  /* position: relative; */
-  display: block;
-  width: calc(127% + 1.3px);
-  height: 234px;
+  height: auto;
 }
 
-.wave .shape-fill {
-  fill: #519d42;
+.content {
+  width: 60%;
+  float: left;
+  margin-left: 50px;
+  margin-right: auto;
+  color: var(--color-dark-grey);
+  line-height: 7em;
 }
 
-/* Circle Image */
-
-.about-container {
-  display: flex;
-  max-width: 70%;
-  margin: auto;
-  margin-bottom: 5rem;
-  /* margin-top: -100px; commented the margin top negative  */
+.content h2 {
+  font-size: 2em;
+  font-family: "Inter" sans-serif;
+  margin-top: 25px;
+  color: var(--colour-primary);
+  margin-bottom: 25px;
 }
-.about-description {
-  padding: 0 2rem 0 0;
+
+.content p {
+  font-family: "Inter" sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
   line-height: 2em;
 }
 
-/* .circle-image {
-  border-radius: 50%;
-  width: 300px;
-  height: auto;
-} */
+@media screen and (max-width: 765px) {
+  .image-section {
+    width: 100%;
+    float: none;
+  }
 
-.circle-image {
-  display: inline-block;
-  border-radius: 50%;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-}
-.circle-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  .content {
+    width: 100%;
+    float: none;
+    margin-left: 10px;
+  }
 
+  .content h2 {
+    font-size: 25px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+}
 /* FOOTER */
 
 footer {
