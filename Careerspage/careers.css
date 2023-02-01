@@ -236,6 +236,28 @@ h2 {
   font-size: 19px;
 }
 
+@media screen and (max-width: 765px) {
+  .contact h4 {
+    text-align: left;
+    line-height: 2em;
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+  .contact p {
+    font-size: 12px;
+  }
+  .contact h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .inputBox {
+    font-size: 11px;
+  }
+  .contact label {
+    font-size: 12px;
+  }
+}
+
 /* Form */
 
 .formBox {
