@@ -96,7 +96,7 @@ nav {
   .navlinks {
     position: absolute;
     right: 0;
-    height: 92vh;
+    height: 50vh;
     top: 8vh;
     background-color: var(--colour-off-white);
     display: flex;
@@ -228,6 +228,7 @@ body {
   margin-top: 20px;
   height: 100%;
 }
+
 /* CONTACT FORM */
 
 .contact-us-text {
