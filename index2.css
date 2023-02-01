@@ -1,0 +1,61 @@
+:root {
+  --colour-primary: #519d42;
+  --colour-light-green: #92ae5a;
+  --colour-off-white: #f5f5f5;
+  --color-light-grey: #ececec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img-card {
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 765px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  background-color: var(--colour-primary);
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--colour-off-white);
+  line-height: 1.8em;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 100%;
+}
