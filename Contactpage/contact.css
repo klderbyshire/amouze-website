@@ -87,7 +87,7 @@ nav {
   font-size: 14px;
 }
 
-.navlinks li:hover {
+.navlinks a:hover {
   color: var(--colour-primary);
   padding-left: 8px;
 }
