@@ -332,6 +332,15 @@ h2 {
   font-family: "Roboto Mono", monospace;
 }
 
+@media screen and (max-width: 765px) {
+  .inputBox input {
+    font-size: 13px;
+  }
+  .inputBox textarea {
+    font-size: 13px;
+  }
+}
+
 /* Footer */
 
 footer {
