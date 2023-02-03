@@ -382,18 +382,25 @@ label {
     margin-top: 20px;
     height: 100%;
   }
-  .contact-us-text p {
-    font-size: 16px;
-    line-height: 2em;
-    padding-bottom: 5px;
-  }
-  .contact-us-text .astrisk-text {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  #button-blue {
-    font-size: 18px;
-  }
+}
+.contact-us-text h1 {
+  font-size: 23px;
+}
+.contact-us-text p {
+  font-size: 16px;
+  line-height: 2em;
+  padding-bottom: 5px;
+}
+.contact-us-text .astrisk-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#button-blue {
+  font-size: 18px;
+  border-radius: 10px;
+}
+label {
+  font-size: 16px;
 }
 
 /* Footer */
