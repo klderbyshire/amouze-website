@@ -167,7 +167,6 @@ nav {
   top: 120px;
   left: 25px;
   font-weight: bold;
-  font-size: 40px;
   color: #fff;
 }
 
@@ -204,15 +203,6 @@ body {
   border-radius: 10px 10px 10px 10px;
 }
 
-/* Responsive columns */
-@media screen and (max-width: 765px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
 /* Style the counter cards */
 .card {
   background-color: var(--colour-primary);
@@ -221,6 +211,7 @@ body {
   margin-bottom: 20px;
   text-align: center;
   color: var(--colour-off-white);
+  font-size: 18px;
   line-height: 1.8em;
   border-radius: 10px;
   margin-left: 20px;
@@ -228,12 +219,34 @@ body {
   margin-top: 20px;
   height: 100%;
 }
+.card h3 {
+  font-size: 20px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 765px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    font-size: 16px;
+    line-height: 2em;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+}
 
 /* CONTACT FORM */
 
 .contact-us-text {
   color: var(--colour-off-white);
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .contact-us-text p {
@@ -318,6 +331,7 @@ input,
 label {
   margin-bottom: 35px;
   color: var(--colour-off-white);
+  font-size: 16px;
 }
 
 #button-blue {
@@ -328,7 +342,7 @@ label {
   cursor: pointer;
   background-color: var(--colour-off-white);
   color: var(--colour-primary);
-  font-size: 24px;
+  font-size: 20px;
   padding-top: 17px;
   padding-bottom: 17px;
   -webkit-transition: all 0.3s;
@@ -370,12 +384,15 @@ label {
   }
   .contact-us-text p {
     font-size: 16px;
-    line-height: 1.7em;
+    line-height: 2em;
     padding-bottom: 5px;
   }
   .contact-us-text .astrisk-text {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
+  }
+  #button-blue {
+    font-size: 18px;
   }
 }
 
@@ -434,7 +451,7 @@ footer {
 }
 
 .footer-col ol li a {
-  font-size: 16px;
+  font-size: 18px;
   color: #14453d;
   text-decoration: none;
   font-weight: bold;
@@ -452,8 +469,9 @@ ol {
 }
 
 .p-text {
-  font-size: 16px;
+  font-size: 18px;
   color: #14453d;
+  line-height: 2em;
 }
 
 /* RESPONSIVE */
@@ -463,6 +481,18 @@ ol {
     width: 50%;
     margin-bottom: 30px;
   }
+}
+.footer-col h4 {
+  font-size: 16px;
+  line-height: 2em;
+}
+.footer-col ol li a {
+  font-size: 16px;
+}
+.p-text {
+  font-size: 16px;
+  color: #14453d;
+  line-height: 2em;
 }
 
 @media (max-width: 574px) {

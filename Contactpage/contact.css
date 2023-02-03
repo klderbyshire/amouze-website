@@ -221,8 +221,26 @@ nav {
 .contact h3 {
   color: var(--color-dark-grey);
   font-weight: 700;
-  font-size: 2em;
+  font-size: 25px;
   margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+@media (max-width: 765px) {
+  .contact h3 {
+    font-size: 20px;
+  }
+  .contact p {
+    font-size: 16px;
+    line-height: 2em;
+  }
+  .contact .astrisk-text {
+    font-size: 14px;
+  }
 }
 
 /* Form */
@@ -258,7 +276,7 @@ nav {
 
 .inputBox input {
   padding: 10px;
-  font-size: 1.1em;
+  font-size: 16px;
   outline: none;
   border: 1px solid #333;
   /* font-family: "Roboto Mono", monospace; */
@@ -267,7 +285,7 @@ nav {
 
 .inputBox textarea {
   padding: 10px;
-  font-size: 1.1em;
+  font-size: 16px;
   outline: none;
   border: 1px solid #333;
   resize: none;
@@ -282,7 +300,7 @@ nav {
   color: #fff;
   border: none;
   border-radius: 10px;
-  font-size: 1.1em;
+  font-size: 20px;
   max-width: 120px;
   font-weight: 500;
   cursor: pointer;
@@ -299,6 +317,15 @@ input[type="checkbox"] {
   position: relative;
 }
 
+@media (max-width: 765px) {
+  .inputBox input {
+    font-size: 16px;
+  }
+  .inputBox textarea {
+    font-size: 14px;
+  }
+}
+
 /* InfoBox */
 
 .info {
@@ -312,9 +339,9 @@ input[type="checkbox"] {
   display: flex;
   justify-content: center;
   color: #fff;
-  font-size: 2em;
+  font-size: 25px;
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .info .infoBox div {
@@ -331,20 +358,37 @@ input[type="checkbox"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 18px;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 35px;
 }
 
 .info .infoBox div p {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 18px;
+  line-height: 2em;
 }
 
 .info .infoBox div a {
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 20px;
   border-color: var(--color-dark-grey);
+  margin-right: 35px;
+}
+
+@media (max-width: 765px) {
+  .info h3 {
+    font-size: 22px;
+  }
+  .info .infoBox div span {
+    font-size: 16px;
+  }
+  .info .infoBox div p {
+    font-size: 16px;
+  }
+  .info .infoBox div a {
+    font-size: 18px;
+  }
 }
 
 /* Map */
@@ -450,7 +494,7 @@ footer {
 }
 
 .footer-col ol li a {
-  font-size: 16px;
+  font-size: 18px;
   color: #14453d;
   text-decoration: none;
   font-weight: bold;
@@ -468,8 +512,9 @@ ol {
 }
 
 .p-text {
-  font-size: 16px;
+  font-size: 18px;
   color: #14453d;
+  line-height: 2em;
 }
 
 /* RESPONSIVE */
@@ -479,6 +524,18 @@ ol {
     width: 50%;
     margin-bottom: 30px;
   }
+}
+.footer-col h4 {
+  font-size: 16px;
+  line-height: 2em;
+}
+.footer-col ol li a {
+  font-size: 16px;
+}
+.p-text {
+  font-size: 16px;
+  color: #14453d;
+  line-height: 2em;
 }
 
 @media (max-width: 574px) {
