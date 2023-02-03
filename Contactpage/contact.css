@@ -232,11 +232,12 @@ nav {
 
 @media (max-width: 765px) {
   .contact h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .contact p {
     font-size: 16px;
     line-height: 2em;
+    margin-bottom: 5px;
   }
   .contact .astrisk-text {
     font-size: 14px;
@@ -317,12 +318,19 @@ input[type="checkbox"] {
   position: relative;
 }
 
+label {
+  font-size: 18px;
+}
+
 @media (max-width: 765px) {
   .inputBox input {
     font-size: 16px;
   }
   .inputBox textarea {
     font-size: 14px;
+  }
+  label {
+    font-size: 16px;
   }
 }
 
